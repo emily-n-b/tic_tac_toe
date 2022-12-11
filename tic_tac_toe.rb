@@ -90,22 +90,6 @@ class Player
 
 end
 
-#not using this class yet
-class Position
-    attr_reader :num
-    def initialize(num)
-        @num = num
-    end
-end
-
-#not using this class yet
-class Round
-    attr_reader :num
-    def initialize(num)
-        @num = num
-    end
-end
-
 player1 = Player.new(1)
 player2 = Player.new(2)
 
